@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar } from 'react-bootstrap'
+<link rel="stylesheet" href="../assets/css/style.css"></link>
 
 
 function Header(props) {
@@ -10,7 +10,7 @@ function Header(props) {
 
             {/* <!-- notification menu start --> */}
             <div className="menu-right">
-            <Navbar className="navbar user-panel-top">
+            <div className="navbar user-panel-top">
                 <div className="search-box">
                 <form action="#search-results.html" method="get">
                     <input className="search-input" placeholder="Search Here..." type="search" id="search">
@@ -46,7 +46,7 @@ function Header(props) {
                     </li>
                 </ul>
                 </div>
-            </Navbar>
+            </div>
             </div>
             </div>
         </>
