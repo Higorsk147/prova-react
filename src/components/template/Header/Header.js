@@ -1,4 +1,6 @@
 import React from 'react'
+import { Form, Navbar } from 'react-bootstrap'
+
 <link href="../../../assets/css/style.css" rel="stylesheet"/>
 
 
@@ -6,18 +8,18 @@ function Header(props) {
 
     return(
         <>
-        <body class="sidebar-menu-collapsed">
+        <body className="sidebar-menu-collapsed">
         <div className="header sticky-header">
 
             {/* <!-- notification menu start --> */}
             <div className="menu-right">
             <div className="navbar user-panel-top">
                 <div className="search-box">
-                <form action="#search-results.html" method="get">
+                <Form action="#search-results.html" method="get">
                     <input className="search-input" placeholder="Search Here..." type="search" id="search"/>
                     <button className="search-submit" value=""><span className="fa fa-search"></span></button>
                     
-                </form>
+                </Form>
                 </div>
                 
                 
@@ -51,6 +53,10 @@ function Header(props) {
             </div>
             </div>
             </body>
+
+    {/* <script>
+    <Script/>
+    </script> */}
         </>
     )
 }
