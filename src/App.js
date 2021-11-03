@@ -2,6 +2,7 @@ import {
   BrowserRouter as Router
 } from "react-router-dom";
 import { Routes } from './routes'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Menu from './components/template/Menu/Menu'
 
 function App() {
