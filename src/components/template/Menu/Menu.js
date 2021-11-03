@@ -1,6 +1,6 @@
 import React from 'react'
-<link rel="stylesheet" href="../assets/css/style.css"></link>
-
+// import '../../../assets/css/style.css'
+<link href="../../../assets/css/style.css" rel="stylesheet"/>
 
 function Menu(props) {
 

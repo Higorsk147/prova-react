@@ -1,11 +1,12 @@
 import React from 'react'
-<link rel="stylesheet" href="../assets/css/style.css"></link>
+<link href="../../../assets/css/style.css" rel="stylesheet"/>
 
 
 function Header(props) {
 
     return(
         <>
+        <body class="sidebar-menu-collapsed">
         <div className="header sticky-header">
 
             {/* <!-- notification menu start --> */}
@@ -13,9 +14,9 @@ function Header(props) {
             <div className="navbar user-panel-top">
                 <div className="search-box">
                 <form action="#search-results.html" method="get">
-                    <input className="search-input" placeholder="Search Here..." type="search" id="search">
+                    <input className="search-input" placeholder="Search Here..." type="search" id="search"/>
                     <button className="search-submit" value=""><span className="fa fa-search"></span></button>
-                    </input>
+                    
                 </form>
                 </div>
                 
@@ -49,6 +50,7 @@ function Header(props) {
             </div>
             </div>
             </div>
+            </body>
         </>
     )
 }

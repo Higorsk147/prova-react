@@ -1,6 +1,8 @@
 import React from 'react'
 import { Row, Card, Container } from 'react-bootstrap'
-<link rel="stylesheet" href="../assets/css/style.css"></link>
+<link  href="../assets/css/style.css" rel="stylesheet"/>
+
+
 
 
 function Blocks(props) {
